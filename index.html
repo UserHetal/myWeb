@@ -14,9 +14,14 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<!--This head element includes an INTERNAL CSS to colour the h2 text-->
+    <style> h2 {color: crimson;} </style>
+<!--This head element includes an EXTERNAL CSS to colour the page from a stylesheet titled 'styles.css'-->
+    <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
-    <h1>Operation Saver</h1>
+<!--Includes example of an INLINE CSS to colour the h1 text-->
+    <h1 style="color: cornflowerblue;">Operation Saver</h1>
         <h2>An amateur web developer</h2>
     <hr />
         <h3><a href="./public/chore-list.html">Chore List Project</a></h3>
